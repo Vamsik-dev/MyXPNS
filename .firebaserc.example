@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "YOUR-FIREBASE-PROJECT-ID"
+  },
+  "targets": {
+    "YOUR-FIREBASE-PROJECT-ID": {
+      "hosting": {
+        "staging": [
+          "YOUR-STAGING-SITE-ID"
+        ],
+        "production": [
+          "YOUR-PRODUCTION-SITE-ID"
+        ]
+      }
+    }
+  }
+}
